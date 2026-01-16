@@ -7,3 +7,6 @@ couleur_banane = fruits["banane"]
 
 del fruits["banane"]
 print(fruits.keys())
+print(fruits.get("pomme"))
+print("banane" in fruits)
+print("Kiwi" in fruits)
